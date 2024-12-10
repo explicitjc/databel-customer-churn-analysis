@@ -15,6 +15,7 @@ This case study investigates customer churn trends at Databel, focusing on ident
 - **Approach:** Used COUNT and COUNTD calculated fields.
 - **Result:** The dataset contains **6,687 unique customers**.
 
+![dataset.png](images/dataset.png)
 ---
 
 ### **Step 2: Calculating Churn Rate**
@@ -24,6 +25,9 @@ This case study investigates customer churn trends at Databel, focusing on ident
   - Number of churned customers: **1,796**
   - Churn rate: **26.86%**
 
+![churned.png](images/churned.png)
+
+![churn_rate.png](images/churn_rate.png)
 ---
 
 ### **Step 3: Investigating Churn Reasons**
@@ -32,6 +36,10 @@ This case study investigates customer churn trends at Databel, focusing on ident
 - **Key Insights:**
   - The **"Competitor"** category accounts for **44.82%** of all churn, making it the most significant reason.
 
+![percent_churn_reasons.png](images/percent_churn_reasons.png)
+
+![churn_cat.png](images/churn_cat.png)
+
 ---
 
 ### **Step 4: Geographic Analysis**
@@ -39,7 +47,8 @@ This case study investigates customer churn trends at Databel, focusing on ident
 - **Approach:** Mapped churn rates by state to evaluate competitor promotions.
 - **Key Insight:**
   - **California** has the highest churn rate at **63%**.
-
+  - 
+![churn_by_state.png](images/churn_by_state.png)
 ---
 
 ### **Step 5: Demographic Analysis**
@@ -47,6 +56,7 @@ This case study investigates customer churn trends at Databel, focusing on ident
 - **Key Insight:**
   - Senior citizens churn at a rate of **38%**, which is **10% higher** than the average.
 
+![churn_.png](images/churn_age.png)
 ---
 
 ### **Step 6: Age Group Analysis**
@@ -54,7 +64,8 @@ This case study investigates customer churn trends at Databel, focusing on ident
 - **Approach:** Created age bins and visualized churn rates.
 - **Observation:**
   - Churn rates are highest among customers aged **65 and older**, although this group has the lowest customer count.
-
+  - 
+![churn_by_bins.png](images/churn_by_bins.png)
 ---
 
 ### **Step 7: Group Contracts Analysis with Parameters**
@@ -66,6 +77,9 @@ This case study investigates customer churn trends at Databel, focusing on ident
   - Customers with group contracts show a significantly lower churn rate (**6.51%**) compared to the overall average.
   - Despite their lower churn rates, **75% of customers** do not have group contracts, suggesting an opportunity to expand this offering.
 
+![parameter.png](images/parameter.png)
+
+![metric_field.png](images/metric_field.png)
 ---
 
 ### **Step 8: Unlimited Plans**
@@ -75,6 +89,9 @@ This case study investigates customer churn trends at Databel, focusing on ident
 - **Key Insights:**
   - People who consume **5GB or less** are more likely to churn.
 
+![data_download_group_calc.png](images/data_download_group_calc.png)
+
+![bins_churn_data.png](images/bins_churn_data.png)
 ---
 
 ### **Step 9: International Calls**
@@ -86,6 +103,7 @@ This case study investigates customer churn trends at Databel, focusing on ident
 - **Recommendation:**
   - Propose a cheaper plan for international callers to increase satisfaction and reduce churn.
 
+![international.png](images/international.png)
 ---
 
 ### **Step 10: Contract Types**
@@ -96,6 +114,7 @@ This case study investigates customer churn trends at Databel, focusing on ident
   - **Month-to-month contracts** have the highest churn rate.
   - The **Direct Debit** payment method accounts for the largest group of churned customers (**1,141 churned**).
 
+![contract_type.png](images/contract_type.png)
 ---
 
 ## Dashboard Insights and Recommendations
@@ -106,6 +125,7 @@ This case study investigates customer churn trends at Databel, focusing on ident
 - **Insights:**
   - This page offers an immediate understanding of the overall churn rate, with breakdowns by demographics, geography, and contract type.
 
+![churn_by_state.png](images/dashboard_overview.png)
 ---
 
 ### **2. Demographics, Ages, and Groups**
@@ -115,6 +135,7 @@ This case study investigates customer churn trends at Databel, focusing on ident
   - **Senior citizens (65+)** exhibit the highest churn rates, far exceeding the average churn of 26.86%.
   - Customers in **group contracts** have a much lower churn rate (**6.51%**).
 
+![churn_by_state.png](images/dashboard_demographics.png)
 ---
 
 ### **3. International and Data Plan**
@@ -124,6 +145,7 @@ This case study investigates customer churn trends at Databel, focusing on ident
   - Customers using **less than 5GB/month** of data have a higher likelihood of churn.
   - **International callers** show higher monthly charges but represent a smaller segment.
 
+![churn_by_state.png](images/dashboard_data_int_plan.png)
 ---
 
 ### **4. Payment Method and Contract Type**
@@ -133,6 +155,7 @@ This case study investigates customer churn trends at Databel, focusing on ident
   - **Month-to-month contracts** have the highest churn rates, indicating that these customers are more likely to leave after short-term commitments.
   - Customers using **Direct Debit** have a large proportion of churned customers.
 
+![churn_by_state.png](images/dashboard_payment_method.png)
 ---
 
 ## Recommendations
@@ -161,5 +184,15 @@ This case study investigates customer churn trends at Databel, focusing on ident
   Incorporate customer feedback to gain qualitative insights and tailor churn-reduction strategies more effectively.
 
 ---
+
+## Dashboard Interactive
+
+Explore the interactive **Tableau dashboard** for a deeper dive into the customer churn analysis.  
+[View the dashboard on Tableau Public](https://public.tableau.com/app/profile/jc.coissard/viz/databel_case_study/InternationalandDataPlan?publish=yes)
+
+---
+
+Disclaimer:
+The data used in this analysis is sourced from DataCamp and is used solely for educational purposes. The analysis, insights, and visualizations provided in this repository are created by the author and are not affiliated with or endorsed by DataCamp. All content in this repository, including the methodology and results, is for personal, academic, and professional development purposes only. The intellectual property rights of the original dataset and any associated content belong to DataCamp.
 
 ### Repository Structure:
