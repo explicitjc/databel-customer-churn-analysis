@@ -188,11 +188,9 @@ This case study investigates customer churn trends at Databel, focusing on ident
 ## Dashboard Interactive
 
 Explore the interactive **Tableau dashboard** for a deeper dive into the customer churn analysis.  
-[View the dashboard on Tableau Public](https://public.tableau.com/app/profile/jc.coissard/viz/databel_case_study/InternationalandDataPlan?publish=yes)
+[View the dashboard on Tableau Public](https://public.tableau.com/app/profile/jc.coissard/viz/databel_case_study/DATABELChurnAnalysis)
 
 ---
 
-Disclaimer:
+### Disclaimer:
 The data used in this analysis is sourced from DataCamp and is used solely for educational purposes. The analysis, insights, and visualizations provided in this repository are created by the author and are not affiliated with or endorsed by DataCamp. All content in this repository, including the methodology and results, is for personal, academic, and professional development purposes only. The intellectual property rights of the original dataset and any associated content belong to DataCamp.
-
-### Repository Structure:
